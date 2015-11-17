@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := vendor/qmon/
+LOCAL_PATH := vendor/qmon/shooteru
 # Qualcomm blob(s) necessary for shooteru hardware
 PRODUCT_COPY_FILES += \
 \
