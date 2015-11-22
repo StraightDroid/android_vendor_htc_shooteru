@@ -45,7 +45,53 @@ PRODUCT_COPY_FILES += \
 #qcom etc ??
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/etc/init.qcom.efs.sync.sh:system/etc/init.qcom.efs.sync.sh \
+
     $(LOCAL_PATH)/system/etc/init.qcom.post_boot.sh:system/etc/init.qcom.post_boot.sh \
+## dsp Audio
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/system/etc/AIC3254_REG.csv:system/etc/AIC3254_REG.csv \
+    $(LOCAL_PATH)/system/etc/AIC3254_REG_DualMic.csv:system/etc/AIC3254_REG_DualMic.csv \
+    $(LOCAL_PATH)/system/etc/AdieHWCodec.csv:system/etc/AdieHWCodec.csv \
+    $(LOCAL_PATH)/system/etc/CodecDSPID.txt:system/etc/CodecDSPID.txt \
+    $(LOCAL_PATH)/system/etc/AudioBTID.csv:system/etc/AudioBTID.csv \
+    $(LOCAL_PATH)/system/etc/TPA2051_CFG.csv:system/etc/TPA2051_CFG.csv \
+    $(LOCAL_PATH)/system/etc/soundimage/Sound_FM_HP.txt:system/etc/soundimage/Sound_FM_HP.txt \
+    $(LOCAL_PATH)/system/etc/soundimage/Sound_FM_SPK.txt:system/etc/soundimage/Sound_FM_SPK.txt \
+    $(LOCAL_PATH)/system/etc/soundimage/Sound_Original.txt:system/etc/soundimage/Sound_Original.txt \
+    $(LOCAL_PATH)/system/etc/soundimage/Sound_Original_MFG.txt:system/etc/soundimage/Sound_Original_MFG.txt \
+    $(LOCAL_PATH)/system/etc/soundimage/Sound_Original_Recording.txt:system/etc/soundimage/Sound_Original_Recording.txt \
+    $(LOCAL_PATH)/system/etc/soundimage/Sound_Original_SPK.txt:system/etc/soundimage/Sound_Original_SPK.txt \
+    $(LOCAL_PATH)/system/etc/soundimage/Sound_Phone_Original.txt:system/etc/soundimage/Sound_Phone_Original.txt \
+    $(LOCAL_PATH)/system/etc/soundimage/Sound_Phone_Original_HP.txt:system/etc/soundimage/Sound_Phone_Original_HP.txt \
+    $(LOCAL_PATH)/system/etc/soundimage/Sound_Phone_Original_REC.txt:system/etc/soundimage/Sound_Phone_Original_REC.txt \
+    $(LOCAL_PATH)/system/etc/soundimage/Sound_Phone_Original_SPK.txt:system/etc/soundimage/Sound_Phone_Original_SPK.txt \
+    $(LOCAL_PATH)/system/etc/soundimage/Sound_Rec_Landscape.txt:system/etc/soundimage/Sound_Rec_Landscape.txt \
+    $(LOCAL_PATH)/system/etc/soundimage/Sound_Rec_mono.txt:system/etc/soundimage/Sound_Rec_mono.txt \
+    $(LOCAL_PATH)/system/etc/soundimage/Sound_Recording.txt:system/etc/soundimage/Sound_Recording.txt \
+    $(LOCAL_PATH)/system/etc/soundimage/Sound_Rec_Portrait.txt:system/etc/soundimage/Sound_Rec_Portrait.txt \
+    $(LOCAL_PATH)/system/etc/soundimage/Sound_Rec_Voice_record.txt:system/etc/soundimage/Sound_Rec_Voice_record.txt \
+    $(LOCAL_PATH)/system/etc/soundimage/srs_geq10.cfg:system/etc/soundimage/srs_geq10.cfg \
+    $(LOCAL_PATH)/system/etc/soundimage/srsfx_trumedia_51.cfg:system/etc/soundimage/srsfx_trumedia_51.cfg \
+    $(LOCAL_PATH)/system/etc/soundimage/srsfx_trumedia_movie.cfg:system/etc/soundimage/srsfx_trumedia_movie.cfg \
+    $(LOCAL_PATH)/system/etc/soundimage/srsfx_trumedia_music.cfg:system/etc/soundimage/srsfx_trumedia_music.cfg \
+    $(LOCAL_PATH)/system/etc/CodecDSPID_NEL.txt:system/etc/CodecDSPID_NEL.txt \
+    $(LOCAL_PATH)/system/etc/CodecDSPID_WB.txt:system/etc/CodecDSPID_WB.txt \
+    $(LOCAL_PATH)/system/etc/IOTable.txt:system/etc/IOTable.txt \
+    $(LOCAL_PATH)/system/etc/IOTable_NEL.txt:system/etc/IOTable_NEL.txt \
+    $(LOCAL_PATH)/system/etc/soundimage/Sound_Phone_Original_HP_NEL.txt:system/etc/soundimage/Sound_Phone_Original_HP_NEL.txt \
+    $(LOCAL_PATH)/system/etc/soundimage/Sound_Phone_Original_HP_WB.txt:system/etc/soundimage/Sound_Phone_Original_HP_WB.txt \
+    $(LOCAL_PATH)/system/etc/soundimage/Sound_Phone_Original_NEL.txt:system/etc/soundimage/Sound_Phone_Original_NEL.txt \
+    $(LOCAL_PATH)/system/etc/soundimage/Sound_Phone_Original_REC_NEL.txt:system/etc/soundimage/Sound_Phone_Original_REC_NEL.txt \
+    $(LOCAL_PATH)/system/etc/soundimage/Sound_Phone_Original_REC_Voda.txt:system/etc/soundimage/Sound_Phone_Original_REC_Voda.txt \
+    $(LOCAL_PATH)/system/etc/soundimage/Sound_Phone_Original_REC_WB.txt:system/etc/soundimage/Sound_Phone_Original_REC_WB.txt \
+    $(LOCAL_PATH)/system/etc/soundimage/Sound_Phone_Original_SPK_NEL.txt:system/etc/soundimage/Sound_Phone_Original_SPK_NEL.txt \
+    $(LOCAL_PATH)/system/etc/soundimage/Sound_Phone_Original_SPK_Voda.txt:system/etc/soundimage/Sound_Phone_Original_SPK_Voda.txt \
+    $(LOCAL_PATH)/system/etc/soundimage/Sound_Phone_Original_SPK_WB.txt:system/etc/soundimage/Sound_Phone_Original_SPK_WB.txt \
+    $(LOCAL_PATH)/system/etc/soundimage/Sound_Phone_Original_WB.txt:system/etc/soundimage/Sound_Phone_Original_WB.txt \
+    $(LOCAL_PATH)/system/etc/soundimage/srs_bypass.cfg:system/etc/soundimage/srs_bypass.cfg \
+    $(LOCAL_PATH)/system/etc/soundimage/srs_global.cfg:system/etc/soundimage/srs_global.cfg \
+    $(LOCAL_PATH)/system/etc/soundimage/srsfx_trumedia_voice.cfg:system/etc/soundimage/srsfx_trumedia_voice.cfg
+
 
 #other
 PRODUCT_COPY_FILES += \
