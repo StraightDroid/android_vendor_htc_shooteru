@@ -34,5 +34,3 @@ $(LOCAL_PATH)/root/sbin/logcat2_recvy:root/sbin/logcat2_recvy \
 $(LOCAL_PATH)/root/sbin/mke2fs_recvy:root/sbin/mke2fs_recvy \
 $(LOCAL_PATH)/root/sbin/tune2fs_recvy:root/sbin/tune2fs_recvy 
 
-
-$(call inherit-product-if-exists, vendor/qcom/shooteru/device-shooteru.mk)
