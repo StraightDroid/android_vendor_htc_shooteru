@@ -11,7 +11,10 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-LOCAL_STEM := shooteru/BoardConfigShooteru.mk
 
--include vendor/broadcom/$(LOCAL_STEM)
--include vendor/qcom/$(LOCAL_STEM)
+LOCAL_PATH := vendor/broadcom/shooteru
+# Qualcomm blob(s) necessary for shooteru hardware
+PRODUCT_COPY_FILES += \
+\
+$(LOCAL_PATH)/bcm4329/system/etc/firmware/fw_bcm4329.bin:system/etc/firmware/fw_bcm4329.bin \
+$(LOCAL_PATH)/bcm4329/system/etc/firmware/fw_bcm4329_apsta.bin:system/etc/firmware/fw_bcm4329_apsta.bin
