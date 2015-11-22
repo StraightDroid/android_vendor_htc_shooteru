@@ -34,3 +34,70 @@ $(LOCAL_PATH)/root/sbin/logcat2_recvy:root/sbin/logcat2_recvy \
 $(LOCAL_PATH)/root/sbin/mke2fs_recvy:root/sbin/mke2fs_recvy \
 $(LOCAL_PATH)/root/sbin/tune2fs_recvy:root/sbin/tune2fs_recvy 
 
+# Prebuilt libraries that are needed to build open-source libraries
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/system/lib/camera.default.so:obj/lib/hw/camera.default.so \
+    $(LOCAL_PATH)/system/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    $(LOCAL_PATH)/system/lib/libacdbloader.so:obj/lib/libacdbloader.so \
+    $(LOCAL_PATH)/system/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
+    $(LOCAL_PATH)/system/lib/libv8.so:obj/lib/libv8.so
+
+#qcom etc ??
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/system/etc/init.qcom.efs.sync.sh:system/etc/init.qcom.efs.sync.sh \
+    $(LOCAL_PATH)/system/etc/init.qcom.post_boot.sh:system/etc/init.qcom.post_boot.sh \
+
+#other
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/system/bin/3D_calibration:system/bin/3D_calibration \
+    $(LOCAL_PATH)/system/bin/3D_calibration_main:system/bin/3D_calibration_main \
+    $(LOCAL_PATH)/system/bin/charging:system/bin/charging \
+    $(LOCAL_PATH)/system/bin/htc_ebdlogd:system/bin/htc_ebdlogd \
+    $(LOCAL_PATH)/system/bin/htcbatt:system/bin/htcbatt \
+    $(LOCAL_PATH)/system/bin/load-modem.sh:system/bin/load-modem.sh \
+    $(LOCAL_PATH)/system/bin/logcat2:system/bin/logcat2 \
+    $(LOCAL_PATH)/system/bin/mpdecision:system/bin/mpdecision \
+    $(LOCAL_PATH)/system/bin/netmgrd:system/bin/netmgrd \
+    $(LOCAL_PATH)/system/bin/qmuxd:system/bin/qmuxd \
+    $(LOCAL_PATH)/system/bin/rmt_storage:system/bin/rmt_storage \
+    $(LOCAL_PATH)/system/bin/snd3254:system/bin/snd3254 \
+    $(LOCAL_PATH)/system/bin/thermald:system/bin/thermald \
+    $(LOCAL_PATH)/system/bin/wireless_modem:system/bin/wireless_modem \
+    $(LOCAL_PATH)/system/lib/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
+    $(LOCAL_PATH)/system/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
+    $(LOCAL_PATH)/system/lib/libaudcal.so:system/lib/libaudcal.so \
+    $(LOCAL_PATH)/system/lib/libaudcalwb.so:system/lib/libaudcalwb.so \
+    $(LOCAL_PATH)/system/lib/libaudcal_nel.so:system/lib/libaudcal_nel.so \
+    $(LOCAL_PATH)/system/lib/libacdbloader.so:system/lib/libacdbloader.so \
+    $(LOCAL_PATH)/system/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
+    $(LOCAL_PATH)/system/lib/libdiag.so:system/lib/libdiag.so \
+    $(LOCAL_PATH)/system/lib/libdll.so:system/lib/libdll.so \
+    $(LOCAL_PATH)/system/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
+    $(LOCAL_PATH)/system/lib/libdsutils.so:system/lib/libdsutils.so \
+    $(LOCAL_PATH)/system/lib/libidl.so:system/lib/libidl.so \
+    $(LOCAL_PATH)/system/lib/libnetmgr.so:system/lib/libnetmgr.so \
+    $(LOCAL_PATH)/system/lib/libqdp.so:system/lib/libqdp.so \
+    $(LOCAL_PATH)/system/lib/libqmi.so:system/lib/libqmi.so \
+    $(LOCAL_PATH)/system/lib/libhtc_ril.so:system/lib/libhtc_ril.so \
+    $(LOCAL_PATH)/system/lib/camera.default.so:system/lib/hw/camera.default.so \
+    $(LOCAL_PATH)/system/lib/libcamerapp.so:system/lib/libcamerapp.so \
+    $(LOCAL_PATH)/system/lib/libcameraLN.so:system/lib/libcameraLN.so \
+    $(LOCAL_PATH)/system/lib/libcameraSP.so:system/lib/libcameraSP.so \
+    $(LOCAL_PATH)/system/lib/libcameraface.so:system/lib/libcameraface.so \
+    $(LOCAL_PATH)/system/lib/libchromatix_qs_s5k4e1_preview.so:system/lib/libchromatix_qs_s5k4e1_preview.so \
+    $(LOCAL_PATH)/system/lib/libchromatix_qs_s5k4e1_video.so:system/lib/libchromatix_qs_s5k4e1_video.so \
+    $(LOCAL_PATH)/system/lib/libmmmpo.so:system/lib/libmmmpo.so \
+    $(LOCAL_PATH)/system/lib/liboemcamera.so:system/lib/liboemcamera.so \
+    $(LOCAL_PATH)/system/lib/liboemcamera_main.so:system/lib/liboemcamera_main.so \
+    $(LOCAL_PATH)/system/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
+    $(LOCAL_PATH)/system/lib/libposteffect.so:system/lib/libposteffect.so \
+    $(LOCAL_PATH)/system/lib/libgemini.so:system/lib/libgemini.so \
+    $(LOCAL_PATH)/system/lib/libmmipl.so:system/lib/libmmipl.so \
+    $(LOCAL_PATH)/system/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    $(LOCAL_PATH)/system/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+    $(LOCAL_PATH)/system/lib/libv8.so:system/lib/libv8.so \
+    $(LOCAL_PATH)/system/lib/lights.msm8660.so:system/lib/hw/lights.msm8660.so \
+    $(LOCAL_PATH)/system/lib/libmpl.so:system/lib/libmpl.so \
+    $(LOCAL_PATH)/system/lib/libmllite.so:system/lib/libmllite.so \
+    $(LOCAL_PATH)/system/lib/libmlplatform.so:system/lib/libmlplatform.so \
+    $(LOCAL_PATH)/system/lib/hw/sensors.shooteru.so:system/lib/hw/sensors.shooteru.so
