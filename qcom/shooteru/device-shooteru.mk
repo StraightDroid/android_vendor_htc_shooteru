@@ -17,7 +17,6 @@ LOCAL_PATH := vendor/qcom/shooteru
 PRODUCT_COPY_FILES += \
 \
 $(LOCAL_PATH)/adreno2xx/system/lib/libC2D2.so:system/lib/libC2D2.so \
-$(LOCAL_PATH)/adreno2xx/system/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
 $(LOCAL_PATH)/adreno2xx/system/lib/libgsl.so:system/lib/libgsl.so \
 $(LOCAL_PATH)/adreno2xx/system/lib/libOpenVG.so:system/lib/libOpenVG.so \
 $(LOCAL_PATH)/adreno2xx/system/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
@@ -27,7 +26,6 @@ $(LOCAL_PATH)/adreno2xx/system/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAnd
 $(LOCAL_PATH)/adreno2xx/system/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
 $(LOCAL_PATH)/adreno2xx/system/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
 $(LOCAL_PATH)/adreno2xx/system/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-$(LOCAL_PATH)/adreno2xx/system/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
 $(LOCAL_PATH)/adreno2xx/system/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
 \
 $(LOCAL_PATH)/adreno2xx/system/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
@@ -35,3 +33,5 @@ $(LOCAL_PATH)/adreno2xx/system/etc/firmware/leia_pm4_470.fw:system/etc/firmware/
 \
 $(LOCAL_PATH)/media/system/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw
 
+#$(LOCAL_PATH)/adreno2xx/system/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
+# $(LOCAL_PATH)/adreno2xx/system/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so 

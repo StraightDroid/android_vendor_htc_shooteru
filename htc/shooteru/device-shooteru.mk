@@ -25,6 +25,7 @@ $(LOCAL_PATH)/root/default.prop:root/default.prop \
 \
 $(LOCAL_PATH)/root/cwkeys:root/cwkeys \
 $(LOCAL_PATH)/root/init.shooteru.rc:root/init.shooteru.rc \
+$(LOCAL_PATH)/root/init.shooteru.usb.rc:root/init.shooteru.usb.rc \
 $(LOCAL_PATH)/root/ueventd.shooteru.rc:root/ueventd.shooteru.rc \
 \
 $(LOCAL_PATH)/root/sbin/e2fsck_recvy:root/sbin/e2fsck_recvy \
