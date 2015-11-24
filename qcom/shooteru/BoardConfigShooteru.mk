@@ -12,3 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+USE_OPENGL_RENDERER := true
+TARGET_HAVE_BYPASS := false
+TARGET_USES_C2D_COMPOSITION := true
+TARGET_USES_OVERLAY := true
+TARGET_QCOM_HDMI_OUT := true
+TARGET_QCOM_HDMI_RESOLUTION_AUTO := true
+BOARD_EGL_CFG := device/htc/msm8660-common/configs/egl.cfg
+
+
